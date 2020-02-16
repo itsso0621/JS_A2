@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('images/clouds.jpg');
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 auto 50px;
+}
+
+h1 {
+    font-family: 'Rubik Mono One', sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+h3 {
+    margin-left: 50px;
+}
+
+#displayed-img img{
+    width: 800px;
+    height: auto;
+    border: 10px solid #fff;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 1);
+}
+
+#thumbnail {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#thumbnail li{
+    display:inline;
+}
+
+li img {
+    border: 4px solid rgb(255, 255, 255);
+    filter: grayscale(70%);
+
+
+}
+
+li img:hover {
+    box-shadow: 0 0 5px 3px rgba(0, 140, 186, 0.5);
+    filter: grayscale(0%);
+}
+
+figcaption {
+    font-size: 1.5em;
+    font-family: 'Allan', cursive;
+    margin-left: 15px;
+    float: right;
+    min-width:320px;
+    max-width:300px;
+    padding-top: 220px;
+}
+
